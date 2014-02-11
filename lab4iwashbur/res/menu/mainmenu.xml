@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_filter"
+        android:title="@string/filter_menuitem"
+        android:showAsAction="ifRoom|withText" >
+    	<menu>
+    	    <item android:id="@+id/submenu_like"
+    	        android:title="@string/like_menuitem"></item>
+    	    <item android:id="@+id/submenu_dislike"
+    	        android:title="@string/dislike_menuitem"></item>
+    	    <item android:id="@+id/submenu_unrated"
+    	        android:title="@string/unrated_menuitem"></item>
+    	    <item android:id="@+id/submenu_show_all"
+    	        android:title="@string/show_all_menuitem"></item>
+    	</menu>
+    </item>
+</menu>
